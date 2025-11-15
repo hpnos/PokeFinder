@@ -5,8 +5,7 @@ Bem-vindo ao PokéPaís Finder! Esta é uma aplicação web divertida que combin
 
 A aplicação permite que o usuário digite o nome de um país (ex: "Brasil", "Japan") e, em troca, descobre um Pokémon que "combinaria" com o habitat daquela região. O resultado é exibido em uma interface de PokéDex clássica e estilizada.
 
-![Demonstração do PokéPaís Finder](https://i.imgur.com/8QxW1Xh.png) 
-*(Sugestão: Substitua este link por um print da sua própria aplicação)*
+![Demonstração do PokéPaís Finder](https://i.imgur.com/8QxW1Xh.png)
 
 ## ✨ Funcionalidades
 
@@ -39,11 +38,11 @@ Este projeto utiliza uma arquitetura Cliente-Servidor simples, ideal para "mashu
 ### Passos
 1.  Clone este repositório para sua máquina local:
     ```sh
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    git clone [https://github.com/hpnos/PokeFinder.git](https://github.com/hpnos/PokeFinder.git)
     ```
 2.  Navegue até a pasta do projeto:
     ```sh
-    cd seu-repositorio
+    cd PokeFinder
     ```
 3.  Instale as dependências do Node.js (apenas o `express`):
     ```sh
@@ -68,20 +67,20 @@ Executa a lógica principal da aplicação.
 
 * **Query Parameter:**
     * `pais` (obrigatório): O nome do país a ser pesquisado.
-    * *Exemplo de Chamada:* `/api/pokemon-por-pais?pais=Japao`
+    * *Exemplo de Chamada:* `/api/pokemon-por-pais?pais=Brasil`
 
 * **Resposta (Sucesso 200 OK):**
     ```json
     {
       "pokemon": {
-        "nome": "geodude",
+        "nome": "shedinja",
         "imagem": "url-da-imagem.png",
-        "habitat": "mountain"
+        "habitat": "forest"
       },
       "pais": {
-        "nome": "Japan",
+        "nome": "Brazil",
         "bandeira": "url-da-bandeira.svg",
-        "regiao": "Asia"
+        "regiao": "Americas"
       }
     }
     ```
@@ -92,7 +91,7 @@ Executa a lógica principal da aplicação.
     { "erro": "O nome do país é obrigatório." }
 
     // Erro 404 (País Não Encontrado)
-    { "erro": "País 'Japao' não foi encontrado." }
+    { "erro": "País 'Brasil' não foi encontrado." }
 
     // Erro 500 (Falha Interna)
     { "erro": "Falha interna do servidor." }
