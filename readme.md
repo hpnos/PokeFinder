@@ -100,3 +100,4 @@ Executa a lógica principal da aplicação.
 ### APIs Públicas Utilizadas
 * **REST Countries:** `GET /v3.1/name/{pais}`
 * **PokéAPI:** `GET /api/v2/pokemon-habitat/{habitat}` e `GET /api/v2/pokemon/{nome}`
+
