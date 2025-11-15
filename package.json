@@ -1,7 +1,7 @@
 {
   "name": "projeto-apis",
   "version": "1.0.0",
-  "description": "Projeto acadêmico consumindo duas APIs com Express",
+  "description": "OAT2 pagina HTML consumindo duas APIs com Express",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -10,4 +10,5 @@
   "dependencies": {
     "express": "^4.18.2"
   }
+
 }
