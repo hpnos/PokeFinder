@@ -5,7 +5,7 @@ Bem-vindo ao PokéPaís Finder! Esta é uma aplicação web divertida que combin
 
 A aplicação permite que o usuário digite o nome de um país (ex: "Brasil", "Japan") e, em troca, descobre um Pokémon que "combinaria" com o habitat daquela região. O resultado é exibido em uma interface de PokéDex clássica e estilizada.
 
-![Demonstração do PokéPaís Finder](https://i.imgur.com/8QxW1Xh.png)
+![Demonstração do PokéPaís Finder](https://imgur.com/a/tqCbZE1)
 
 ## ✨ Funcionalidades
 
@@ -100,3 +100,4 @@ Executa a lógica principal da aplicação.
 ### APIs Públicas Utilizadas
 * **REST Countries:** `GET /v3.1/name/{pais}`
 * **PokéAPI:** `GET /api/v2/pokemon-habitat/{habitat}` e `GET /api/v2/pokemon/{nome}`
+
