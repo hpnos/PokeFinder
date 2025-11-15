@@ -5,7 +5,7 @@ Bem-vindo ao PokéPaís Finder! Esta é uma aplicação web divertida que combin
 
 A aplicação permite que o usuário digite o nome de um país (ex: "Brasil", "Japan") e, em troca, descobre um Pokémon que "combinaria" com o habitat daquela região. O resultado é exibido em uma interface de PokéDex clássica e estilizada.
 
-![Demonstração do PokéPaís Finder](./pagina/images/demo.png)
+![Demonstração do PokéPaís Finder](./pagina/images/poke-exemplo.png)
 
 ## ✨ Funcionalidades
 
@@ -36,11 +36,9 @@ Este projeto utiliza uma arquitetura Cliente-Servidor simples, ideal para "mashu
 * `npm` (instalado com o Node.js)
 
 ### Passos
-1.  Clone este repositório para sua máquina local:
-    ```sh
-    git clone [https://github.com/hpnos/PokeFinder.git](https://github.com/hpnos/PokeFinder.git)
-    ```
-2.  Navegue até a pasta do projeto:
+1.  **Baixe este repositório** para sua máquina local.
+    *(Você pode fazer isso clicando no botão verde "<> Code" no topo da página do GitHub e selecionando "Download ZIP").*
+2.  **Descompacte** a pasta e navegue até ela pelo seu terminal:
     ```sh
     cd PokeFinder
     ```
