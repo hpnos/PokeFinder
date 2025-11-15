@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="./images/pokebola.gif">
+  <link rel="stylesheet" href="./style.css">
+
+  <script defer src="./app.js"></script>
+
+  <title>PokéPaís Finder</title>
+</head>
+<body>
+  
+  <main>
+    <div class="pokemon__display">
+        </div>
+
+    <h1 class="pokemon__data" id="pokemon-name-container">
+      <span class="pokemon__name"></span>
+    </h1>
+
+    <div class="country__data" id="country-data-container">
+        <p class="initial-message">Aguardando busca...</p>
+    </div>
+
+    <form class="form" id="busca-form">
+        <label for="pais-input">Digite um país:</label>
+        <div class="form-row">
+            <input
+              type="search"
+              class="input__search"
+              id="pais-input"
+              placeholder="Ex: Brasil, Japan..."
+              required
+            />
+            <button type="submit" class="button" id="gerar-btn">Buscar</button>
+        </div>
+    </form>
+
+    <img src="./images/pokedex-full.png" alt="pokedex" class="pokedex">
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxanium', cursive;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(to bottom, #6ab7f5, #fff);
+  min-height: 100vh;
+}
+
+main {
+  display: inline-block;
+  margin-top: 2%;
+  padding: 15px;
+  position: relative;
+}
+
+.pokedex {
+  width: 100%;
+  max-width: 425px; 
+}
+
+
+.pokemon__display {
+  position: absolute;
+  bottom: 55%;
+  left: 50%;
+  transform: translate(-63%, 20%);
+  height: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 60%;
+}
+.pokemon__display img.pokemon {
+    width: 100px;
+    height: 100px;
+    image-rendering: pixelated;
+    z-index: 2;
+}
+.pokemon__display img.flag {
+    width: 60px;
+    height: 40px;
+    border: 2px solid #333;
+    border-radius: 3px;
+    z-index: 2;
+}
+
+
+.pokemon__data {
+  position: absolute;
+  font-weight: 600;
+  color: #ffffff;
+  top: 54.5%;
+  right: 27%; 
+  font-size: clamp(8px, 5vw, 25px);
+  text-align: right;
+  text-transform: capitalize;
+}
+.pokemon__name {
+  color: #3a444d;
+}
+
+
+.country__data {
+  position: absolute;
+  top: 62%; 
+  left: 15%;
+  width: 65%;
+  font-size: clamp(8px, 5vw, 20px); 
+  text-align: left;
+  line-height: 1.6;
+}
+.country__data .name {
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.country__data .details {
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+.country__data .initial-message {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+
+.form {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  width: 65%;
+  transform: translate(-57%, 0);
+}
+.form label {
+  display: block;
+  font-size: clamp(8px, 5vw, 1rem);
+  font-weight: 600;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.form-row {
+  display: flex;
+  gap: 10px; 
+}
+
+.input__search {
+  width: 100%;
+  padding: 4%;
+  outline: none;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #3a444d;
+  font-size: clamp(8px, 5vw, 1rem);
+  box-shadow: -3px 4px 0 #888, -5px 7px 0 #333
+}
+
+
+.button {
+  flex-shrink: 0; 
+  padding: 4%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: clamp(8px, 5vw, 1rem);
+  font-weight: 600;
+  color: white;
+  background-color: #444;
+  box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+.button:active {
+  box-shadow: inset -4px 4px 0 #222;
+  font-size: 0.9rem;
+}
