@@ -40,7 +40,7 @@ Este projeto utiliza uma arquitetura Cliente-Servidor simples, ideal para "mashu
     *(Você pode fazer isso clicando no botão verde "<> Code" no topo da página do GitHub e selecionando "Download ZIP").*
 2.  **Descompacte** a pasta e navegue até ela pelo seu terminal:
     ```sh
-    cd PokeFinder
+    cd caminho da sua pasta pokefinder-main(Ex:C:\user\downloads\pokefinder-main)
     ```
 3.  Instale as dependências do Node.js (apenas o `express`):
     ```sh
@@ -98,3 +98,4 @@ Executa a lógica principal da aplicação.
 ### APIs Públicas Utilizadas
 * **REST Countries:** `GET /v3.1/name/{pais}`
 * **PokéAPI:** `GET /api/v2/pokemon-habitat/{habitat}` e `GET /api/v2/pokemon/{nome}`
+
